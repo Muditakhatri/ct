@@ -95,6 +95,7 @@ export const Main = () => {
                             
                             
                         ))}
+<<<<<<< HEAD
                         {/* {productData.map((product, index) => (
                             <ProductCard
                                 key={index}
@@ -116,6 +117,9 @@ export const Main = () => {
                                 price={product.price} 
                             />
                         ))} */}
+=======
+                        
+>>>>>>> 2b3feff (hjk)
                     </div>
                 </div>
             </div>
@@ -127,3 +131,27 @@ export const Main = () => {
         </div>
     );
 };
+
+
+/*{productData.map((product, index) => (
+    <ProductCard
+        key={index}
+        image={product.images} 
+        title={product.name} 
+        description={product.description}
+        vendor={product.vendor_id?.business_name ||"Admin"} 
+        price={product.price} 
+        mrp={product.mrp}
+    />
+))}
+{productData.map((product, index) => (
+    <ProductCard
+        key={index}
+        image={product.images} 
+        title={product.name} 
+        description={product.description}
+        vendor={product.vendor_id?.business_name ||"Admin"} 
+        price={product.price} 
+    />
+))}
+    */

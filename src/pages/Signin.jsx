@@ -26,6 +26,11 @@ export const Signin = () => {
   useEffect(() => {
     console.log(role);
     document.body.classList = theme;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2b3feff (hjk)
     
     if(auth.role==='Admin'){
       console.log(auth.role)
