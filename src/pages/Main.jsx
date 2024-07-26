@@ -95,7 +95,7 @@ export const Main = () => {
                             
                             
                         ))}
-<<<<<<< HEAD
+
                         {/* {productData.map((product, index) => (
                             <ProductCard
                                 key={index}
@@ -117,9 +117,6 @@ export const Main = () => {
                                 price={product.price} 
                             />
                         ))} */}
-=======
-                        
->>>>>>> 2b3feff (hjk)
                     </div>
                 </div>
             </div>
