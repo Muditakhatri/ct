@@ -70,7 +70,7 @@ const WishPage = () => {
                 </div>
                 <div className="px-12 py-14 min-h-1/2 overflow-y-scroll no-scrool">
                     {prod.contents.data.map((item, i) => {
-                        const isWishlisted = n.product_id?.includes(item._id);
+                        const isWishlisted = wishList.product_id?.includes(item._id);
                         return isWishlisted ? (
                             <WishPageComponent 
                                 key={i} 
